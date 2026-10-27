@@ -1,0 +1,15 @@
+[app]
+base_url = "https://www.workbuddy.ai"
+login_url = "https://www.workbuddy.ai/login/?platform=website&state=2&redirect_uri=https%3A%2F%2Fwww.workbuddy.ai%2F&product=workbuddy"
+github_broker_url = "https://www.workbuddy.ai/auth/realms/copilot/broker/github/login?client_id=console&product=workbuddy"
+auth_realm_url = "https://www.workbuddy.ai/auth/realms/copilot"
+
+[browser]
+headless = true
+timeout = 35
+
+[storage]
+data_dir = "data"
+accounts_json = "data/accounts.json"
+tokens_txt = "data/tokens.txt"
+accounts_input = "accounts.txt"
